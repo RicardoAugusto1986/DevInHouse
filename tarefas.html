@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@1,300&display=swap" rel="stylesheet">
+    <title>Lista de Tarefas</title>
+</head>
+<body>
+    <header>
+        <div class="tituloTarefa">
+        Lista de Afazeres
+        </div>
+    </header>
+
+    <div class="tarefas">       
+
+        <div class="todo__new-item" id="newItem">
+            <input type="text" placeholder="Digite uma tarefa" id="digitado">
+            <button onclick="inserirItem()">Add tarefa</button>
+           
+         </div>
+         <p class="mensagem"></p>       
+
+        <div class="todo__list" id='todoList'>
+
+        </div>
+
+    </div>
+    <script src="tarefasJS.js"></script>
+</body>
+</html>
