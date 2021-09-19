@@ -10,7 +10,7 @@ html {
 }
 
 body {
-    background-color:#ffffff ;
+    background-color:#ada2a2c2 ;
     font-family: 'Source Sans Pro', sans-serif;
     
 }
@@ -27,7 +27,7 @@ body {
 
 .tituloTarefa {
     display:flex;
-    background-color: rgb(218, 204, 16);
+    background-color: rgba(218, 205, 16, 0.329);
     width: 100%;
     height: 100px;
     justify-content: center;
